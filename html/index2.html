@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="../js/jquery.min.js"></script>
+  <link rel="stylesheet" href="../css/easyui/easyui.css">
+  <link rel="stylesheet" href="../css/easyui/icon.css">
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/demo2.css">
+  <script src="../css/easyui/jquery.easyui.min.js"></script>
+  <script src="../css/easyui/easyui-lang-zh_CN.js"></script>
+
+  <title>demo</title>
+</head>
+
+<body>
+  <div id="team">
+    <button data-items="btn" id="addGroupBtn">点击新增分组</button>
+    <div id="dialogDom" class="hide">
+      <p data-items="title" style="border-bottom:1px solid #ccc">客户分组管理</p>
+      <span>我的分组</span>
+      <div>
+        <ul id="myItem" style="width:260px">
+          <!-- <li>
+            <span data-name="val">未命名</span>
+            <input type="text" class="hide" id="inputs">
+          </li> -->
+          <li data-name="input-li" class="hide">
+            <input type="text" data-name="inputs">
+          </li>
+        </ul>
+      </div>
+      <button data-btn="add" style="margin-top:64px">点击添加分组</button>
+      <button data-btn="ok">完成</button>
+
+    </div>
+
+    <div id="delItem" style="display:none">确定删除改分组吗？</div>
+    <button data-btn="edit" class="hide">编辑</button>
+    <button data-btn="del" class="hide">删除</button>
+  </div>
+</body>
+<script src="../js/demo3.js"></script>
+
+</body>
+
+</html>

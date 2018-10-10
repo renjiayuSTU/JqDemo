@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="../js/jquery.min.js"></script>
+  <link rel="stylesheet" href="../css/easyui/easyui.css">
+  <link rel="stylesheet" href="../css/easyui/icon.css">
+  <link rel="stylesheet" href="../css/common.css">
+  <script src="../css/easyui/jquery.easyui.min.js"></script>
+  <script src="../css/easyui/easyui-lang-zh_CN.js"></script>
+
+  <title>demo</title>
+</head>
+
+<body>
+  <div id="office">
+    <h1>办公地址管理</h1>
+    <ul id="addClickBtn">
+    </ul>
+    <div id="handleBtn">
+      <button data-btn="add">添加地址</button>
+      <button class="hide" data-btn="edit">编辑</button>
+      <button class="hide" data-btn="remove">删除地址</button>
+    </div>
+    <div id="dialogDom" class="hide">
+      <h3 data-items="title">增加地址</h3>
+      <div id="content">
+        <span>名称：</span>
+        <input type="text" data-items="inputs" />
+        <p id="attention"></p>
+      </div>
+      <div id="delItem" style="display:none">确定删除改地址吗？</div>
+    </div>
+  </div>
+
+</body>
+<script src="../js/demo.js"></script>
+
+</body>
+
+</html>

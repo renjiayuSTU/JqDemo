@@ -1,0 +1,177 @@
+body {
+  background: #f1f1f1;
+}
+#demo {
+  margin: 0px 320px;
+  background: #fff;
+}
+.header {
+  margin-left: 50px;
+  margin-top: 25px;
+}
+.logo {
+  width: 127px;
+  height: 34px;
+  margin-top: 0px;
+}
+.title {
+  display: inline-block;
+  float: right;
+  width: 500px;
+  height: 30px;
+  line-height: 30px;
+  margin-right: 560px;
+  color: #828282;
+  background: #f8f8f8;
+  position: relative;
+  text-align: center;
+}
+.arrow {
+  width: 0;
+  height: 0;
+  font-size: 0;
+  border-width: 9px;
+  border-style: solid;
+  border-color: #ffffff #f8f8f8 #fff #fff;
+  overflow: hidden;
+  position: absolute;
+  left: -18px;
+  bottom: 5px;
+}
+/* //foot */
+.footer {
+  width: 965px;
+  height: 211px;
+  padding-left: 13px;
+  margin: 30px;
+  background: #f6f6f6;
+}
+.explain {
+  padding-left: 9px;
+  font-size: 12px;
+  color: #333333;
+  border-left: 2px solid #ff483a;
+}
+.foot {
+  padding-top: 13px;
+}
+.oul {
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.oul li {
+  line-height: 18px;
+  font-size: 12px;
+  color: #666666;
+}
+/* 中间 */
+.main {
+  margin-top: 20px;
+}
+.four {
+  margin-left: 124px;
+}
+.buy {
+  margin-left: 100px;
+}
+.receipt {
+  margin-left: 89px;
+}
+.main div > :first-child {
+  font-size: 12px;
+  color: #666666;
+}
+.name {
+  font-size: 14px;
+  color: #d82800;
+}
+.message {
+  margin-bottom: 15px;
+}
+/* 单选框 */
+.alonechoose input {
+  display: none;
+}
+.typechoose label {
+  display: inline-block;
+  margin-right: 6px;
+  width: 74px;
+  height: 29px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 27px;
+  border: 1px dashed #ccc;
+}
+.typechoose > input:checked + label {
+  color: #d82800;
+  background-image: url(../images/a.png);
+  background-repeat: no-repeat;
+  border: none;
+}
+.customtype {
+  margin-bottom: 10px;
+}
+.typechoose {
+  margin-bottom: 10px;
+}
+.choosemoney {
+  border-right: 1px solid #ccc;
+}
+.customtype label {
+  display: inline-block;
+  width: 66px;
+  height: 24px;
+  padding: 0 8px;
+  font-size: 12px;
+  color: #333333;
+  line-height: 24px;
+  text-align: center;
+}
+.customtype > input:checked + label {
+  width: 76px;
+  color: #f6f6f6;
+  background: #f70011;
+}
+.choosemoney:checked {
+  margin-right: 10px;
+}
+.star {
+  color: #f70011;
+}
+.inputstyle {
+  width: 114px;
+  height: 32px;
+  border-radius: 6px;
+  margin-bottom: 17px;
+}
+.inputstyle + span {
+  font-size: 11px;
+  color: #333333;
+  font-weight: bold;
+  margin-left: 8px;
+}
+.wrong {
+  margin-left: 6px;
+  font-size: 12px;
+  color: #fb4542;
+}
+.copymoney {
+  background: url(../images/4_03.png) no-repeat;
+  background-position: center left;
+}
+.createsucc {
+  font-size: 12px;
+  color: #999999;
+}
+.receiptinput {
+  margin-left: 9px;
+}
+.makenow {
+  width: 178px;
+  height: 34px;
+  margin-left: 190px;
+  font-size: 14px;
+  color: #fff;
+  background: #d80000;
+  border-radius: 6px;
+}

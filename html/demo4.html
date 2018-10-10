@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="../js/jquery.min.js"></script>
+  <link rel="stylesheet" href="../css/easyui/easyui.css">
+  <link rel="stylesheet" href="../css/easyui/icon.css">
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/demo4.css">
+  <script src="../css/easyui/jquery.easyui.min.js"></script>
+  <script src="../css/easyui/easyui-lang-zh_CN.js"></script>
+
+  <title>demo</title>
+</head>
+
+<body>
+  <div id="demo">
+    <header class="header">
+      <img src="../images/3_03.png" class="logo">
+      <div class="title"><span class="arrow"></span>预先定制TA的方案。成功后，当TA发起方案时，系统会自动以您预定的金额认购TA的方案。</div>
+    </header>
+    <main class="main" id="main">
+      <div class="message">
+        <span class="four createobj">定制对象：</span>
+        <span class="name">福尔摩斯</span>
+      </div>
+      <div class="typechoose alonechoose">
+        <span class="choose four">彩种选择：</span>
+        <input type="radio" id="football" checked="checked" value="footballs" name="ball" />
+        <label for="football">竞彩足球</label>
+        <input type="radio" id="basketball" value="basketballs" name="ball" />
+        <label for="basketball">竞彩篮球</label>
+      </div>
+      <div class="customtype alonechoose" id="customtype">
+        <span class="type four">定制类型：</span>
+        <input type="radio" id="gold" checked="checked" value="" name="type" data-name="money" />
+        <label for="gold" class="choosemoney" data-name="money">按金额</label>
+        <input type="radio" id="multiple" value="" name="type" data-name="multiple" />
+        <label for="multiple" data-name="multiple">按倍数</label>
+      </div>
+      <div class="hide" data-name="everybuy">
+        <label for="everymultiple" class="buy">每单认购倍数：</label>
+        <span class="star">*</span>
+        <input type="text" id="everymultiple" class="inputstyle" data-name="mul" />
+        <span>倍</span><span data-name="mulput" class="wrong"></span>
+      </div>
+      <div>
+        <label for="money" class="buy">每单认购金额：</label>
+        <span class="star">*</span>
+        <input type="text" id="money" class="inputstyle" data-name="dollar" />
+        <span>元</span>
+        <span class="copymoney wrong" data-name="$">&nbsp&nbsp&nbsp&nbsp最小复制金额为2元</span>
+      </div>
+      <div>
+        <label for="count" class="four">复制次数：</label>
+        <span class="star">*</span>
+        <input type="number" id="count" class="inputstyle" />
+        <span>次</span>
+      </div>
+      <div>
+        <label for="time" class="four">定制时效：</label><span class="star">*</span>
+        <input type="number" id="time" class="inputstyle" /><span>小时</span>
+        <span class="createsucc">定制成功后，在此时间范围内自动复制发单人的方案，时效最长为<span style="color:#ea4740">24</span>小时</span>
+      </div>
+      <div>
+        <label for="project" class="receipt">发单人方案金额≥</label>
+        <input type="number" id="project" class="inputstyle receiptinput" />
+        <span>元复制</span>
+        <span class="createsucc">(可为空)</span>
+      </div>
+      <input type="submit" class="makenow" data-btn="create" />立即订制
+    </main>
+    <footer class="footer">
+      <div class="foot">
+        <p class="explain">定制说明：</p>
+        <ul class="oul">
+          <li>1. 定制跟单：预先定制TA的方案。成功后，当TA发起方案时，系统将自动以您预定的金额认购TA的方案。<br/>
+          </li>
+          <li>2. 定制跟单：预先定制TA的方案。成功后，当TA发起方案时，系统将自动以您预定的金额认购TA的方案。<br/>
+          </li>
+          <li>3. 定制跟单：预先定制TA的方案。成功后，当TA发起方案时，系统将自动以您预定的金额认购TA的方案。<br/>
+          </li>
+          <li>4. 定制跟单：预先定制TA的方案。成功后，当TA发起方案时，系统将自动以您预定的金额认购TA的方案。<br/>
+          </li>
+          <li>5. 定制跟单：预先定制TA的方案。成功后，当TA发起方案时，系统将自动以您预定的金额认购TA的方案。<br/>
+          </li>
+          <li>6. 定制跟单：预先定制TA的方案。成功后，当TA发起方案时，系统将自动以您预定的金额认购TA的方案。<br/>
+          </li>
+          <li>7. 定制跟单：预先定制TA的方案。成功后，当TA发起方案时，系统将自动以您预定的金额认购TA的方案。<br/>
+          </li>
+        </ul>
+      </div>
+
+    </footer>
+
+  </div>
+</body>
+<script src="../js/demo4.js"></script>
+
+</body>
+
+</html>
